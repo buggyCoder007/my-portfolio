@@ -42,6 +42,7 @@ export default function Navbar() {
             url="https://www.linkedin.com/in/roshni-kumari-gupta/"
             className="mr-4"
             target="_blank"
+            rel="noreferrer" 
             fgColor="#fff"
             style={{ height: 35, width: 35 }}
           />
@@ -49,6 +50,7 @@ export default function Navbar() {
             url="https://github.com/buggyCoder007"
             className="mr-4"
             target="_blank"
+            rel="noreferrer" 
             fgColor="#fff"
             style={{ height: 35, width: 35 }}
           />
@@ -56,6 +58,7 @@ export default function Navbar() {
             url="https://www.instagram.com/___rosh.__/"
             className="mr-4"
             target="_blank"
+            rel="noreferrer" 
             fgColor="#fff"
             style={{ height: 35, width: 35 }}
           />
