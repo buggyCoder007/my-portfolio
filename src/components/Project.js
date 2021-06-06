@@ -64,7 +64,6 @@ export default function Project() {
                     href={project.link}
                     rel="noopener norefferer"
                     target="_blank"
-                    rel="noreferrer" 
                     className="text-red-500 font-bold hover:underline hover:text-red-400 text-xl"
                   >
                     View the Project
