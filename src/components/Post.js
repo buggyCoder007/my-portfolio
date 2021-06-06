@@ -45,7 +45,7 @@ export default function Post() {
                   >
                     <img
                       src={post.mainImage.asset.url}
-                      // alt={post.mainImage.alt}
+                      alt={post.mainImage.alt}
                       className="w-full h-full object-cover absolute"
                     />
                     <span className="block relative h-full flex justify-end items-end pr-4 pb-4">

@@ -21,7 +21,6 @@ export default function About() {
     }`
       )
       .then(data => {
-        console.log('data>>>',data)
         setAuthor(data[0]);
       })
       .catch(error => {
@@ -31,13 +30,15 @@ export default function About() {
   if (!author) return <div>Loading...</div>;
   return (
     <main className="relative">
-      <img src={image} alt="background-image" className="absolute w-full" />
+      <img src={image} 
+      alt={image.name} 
+      className="absolute w-full" />
       <div className="p-10 lg:p-48 container mx-auto relative">
         <section className="bg-green-800 rounded-lg shadow-2xl lg:flex p-20">
           <img
             src={urlFor(author.authorImage).url()}
             className="rounded w-32 h-32 lg:w-75 lg:h-40 mr-8"
-            // alt={author.name}
+            alt={author.name}
           />
           <div className="text-lg flex flex-col justify-center">
             <h1 className="cursive text-6xl text-green-300 mb-4 ">

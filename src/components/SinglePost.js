@@ -54,7 +54,7 @@ export default function SinglePost() {
               <div className="flex justify-center text-gray-800">
                 <img
                   src={urlFor(singlePost.authorImage).url()}
-                  // alt={singlePost.name}
+                  alt={singlePost.name}
                   className="w-10 h-10 rounded-full"
                 />
                 <p className="cursive items-center flex pl-2 text-2xl">
@@ -66,7 +66,7 @@ export default function SinglePost() {
           </div>
           <img
             src={singlePost.mainImage.asset.url}
-            // alt={singlePost.title}
+            alt={singlePost.title}
             className="w-full object-cover rounded-t"
             style={{ height: "400px" }}
           />
