@@ -54,14 +54,6 @@ export default function Navbar() {
             fgColor="#fff"
             style={{ height: 35, width: 35 }}
           />
-          <SocialIcon
-            url="https://www.instagram.com/___rosh.__/"
-            className="mr-4"
-            target="_blank"
-            rel="noopener noreferrer" 
-            fgColor="#fff"
-            style={{ height: 35, width: 35 }}
-          />
         </div>
       </div>
     </header>
